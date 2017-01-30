@@ -51,10 +51,10 @@
         </ul>
       </div>
       <section class="main-content">
-        <aside>
-          <div class="filter-group">
-            <form action="" method="get">
-              <span>Производители:</span><!--не уверен-->
+        <div class="filter-group">
+          <form action="" method="get">
+            <fieldset>
+              <legend>Производители:</legend>
               <input type="checkbox" name="california" id="california-field" checked>
               <label for="california-field">Baxter of california</label>
               <input type="checkbox" name="natty" id="natty-field">
@@ -67,20 +67,22 @@
               <label for="murrays-field">Murray's</label>
               <input type="checkbox" name="american" id="american-field">
               <label for="american-field">American crew</label>
-              <span>Группы товаров:</span><!--не уверен-->
+            </fieldset>
+            <fieldset>
+              <legend>группы товаров:</legend>
               <input type="radio" name="product-group" value="razor" id="razor-field">
               <label for="razor-field">Бритвенные принадлежности</label>
               <input type="radio" name="product-group" value="care" id="care-field" checked>
               <label for="care-field">Средства для ухода</label>
               <input type="radio" name="product-group" value="accessories" id="accessories-field">
               <label for="accessories-field">Аксесуары</label>
-              <input type="submit" value="Показать">
-            </form>
-          </div>
-        </aside>
+              <button type="submit">Показать</button>
+            </fieldset>
+          </form>
+        </div>
         <section class="product-range">
           <article class="product-unit">
-            <div class="product-image"><a href="#"><img src="#" width="" height="" alt="Набор для путешествий"></a></div>
+            <a class="product-image" href="#"><img src="#" width="" height="" alt="Набор для путешествий"></a>
             <h2 class="product-name">Набор для путешествий<span>"Baxter of california"</span></h2>
             <div class="product-buy">
               <span>2 900</span>
@@ -88,7 +90,7 @@
             </div>
           </article>
           <article class="product-unit">
-            <div class="product-image"><a href="#"><img src="#" width="" height="" alt="Увлажняющий кондиционер"></a></div>
+            <a class="product-image" href="#"><img src="#" width="" height="" alt="Увлажняющий кондиционер"></a>
             <h2 class="product-name">Увлажняющий кондиционер<span>"Baxter of california"</span></h2>
             <div class="product-buy">
               <span>750</span>
@@ -96,7 +98,7 @@
             </div>
           </article>
           <article class="product-unit">
-            <div class="product-image"><a href="#"><img src="#" width="" height="" alt="Гель для волос"></a></div>
+            <a class="product-image" href="#"><img src="#" width="" height="" alt="Гель для волос"></a>
             <h2 class="product-name">Гель для волос<span>"Suavecito"</span></h2>
             <div class="product-buy">
               <span>290</span>
@@ -104,7 +106,7 @@
             </div>
           </article>
           <article class="product-unit">
-            <div class="product-image"><a href="#"><img src="#" width="" height="" alt="Глина для укладки волос"></a></div>
+            <a class="product-image" href="#"><img src="#" width="" height="" alt="Глина для укладки волос"></a>
             <h2 class="product-name">Глина для укладки волос<span>"American crew"</span></h2>
             <div class="product-buy">
               <span>500</span>
@@ -112,7 +114,7 @@
             </div>
           </article>
           <article class="product-unit">
-            <div class="product-image"><a href="#"><img src="#" width="" height="" alt="Гель для волос"></a></div>
+            <a class="product-image" href="#"><img src="#" width="" height="" alt="Гель для волос"></a>
             <h2 class="product-name">Гель для волос <span>"American crew"</span></h2>
             <div class="product-buy">
               <span>300</span>
@@ -120,7 +122,7 @@
             </div>
           </article>
           <article class="product-unit">
-            <div class="product-image"><a href="#"><img src="#" width="" height="" alt="Набор для бритья"></a></div>
+            <a class="product-image" href="#"><img src="#" width="" height="" alt="Набор для бритья"></a>
             <h2 class="product-name">Набор для бритья <span>"Baxter of california"</span></h2>
             <div class="product-buy">
               <span>3 900</span>
